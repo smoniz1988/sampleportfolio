@@ -1,0 +1,73 @@
+/*This is a CSS Comment, we can use it to comment in a .css file
+CSS Stands for Cascading Style Sheets and is used to help style our website
+It is best practice to have a seperate CSS file and not a bunch of "inline" styles inside our .html (HyperText Markup Language) files
+Let's move our CSS into this file now!
+*/
+
+body {  
+    margin:0;
+    padding:0;
+}
+
+header {
+    margin-top: 5px;
+    text-align: center;
+}
+
+/*header image*/
+header img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Menu Section */
+nav {  
+    background-color: #000;
+    text-align: center; 
+    padding: 15px;
+}
+
+nav li { display:inline; margin-right: 15px; }
+nav a { color: #fff; font-size: 20px; text-decoration: none; }
+
+#content {
+    padding: 10px;
+}
+
+#project-list {
+    text-align:center;
+    list-style: none;
+}
+#project-list li {
+    margin-right:25px;
+    display:inline-block
+}
+#project-list img {
+    width: 150px;
+}
+/* Footer */
+footer {
+    background-color: rgb(112, 109, 109);
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+footer ul {
+    margin:0;
+    padding:0;
+}
+
+footer ul li { 
+    list-style:none;
+    display:inline;
+}
+
+footer ul li a {
+    color: #fff;
+}
+
+/* General Styles */
+a { color: #000;  }
+a:hover { color: rgb(155, 183, 194); }
